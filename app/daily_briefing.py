@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from datetime import date
 #from pprint import pprint
 
+
 from app import APP_ENV
 from app.weather_service import get_hourly_forecasts
 from app.email_service import send_email
